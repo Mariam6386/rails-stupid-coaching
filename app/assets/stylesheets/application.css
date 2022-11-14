@@ -13,27 +13,4 @@
  *= require_tree .
  *= require_self
  */
- <form class="row g-3">
- <div class="col-auto">
-   <label for="staticEmail2" class="visually-hidden">What´s your question</label>
-   <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="email@example.com">
- </div>
- <div class="col-auto">
-   <button type="submit" class="btn btn-danger mb-3">Ask!</button>
- </div>
-</form>
 
-.question{
-  .bg-success
-}
-.p-3 mb-2 bg-success text-white{
-  mb-2
-}
-
-link_to{
-  class="btn btn-outline-info"
-}
-
-.btn btn-outline-warning{
-  text-decoration: none;
-}
